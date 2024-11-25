@@ -29,10 +29,49 @@ a { color:blue; text-decoration: none;}
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    box-sizing: border-box;
 }
-.sidebar {
+aside {
     border-right: solid 1px #cdcdcd;
+    padding-right: 15px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    box-sizing: border-box;
 }
 figure {
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Garantir que o iframe não ultrapasse os limites */
+    max-height: 100%;
+
 }
+.marcatexto {
+	box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;
+	background: #000;
+	display: inline;
+	padding: 3px 0 !important;
+	position: relative;
+}
+
+#palmeiras-2021{
+    width: 350px;
+    max-width: 100%; /* Garantir que o iframe não ultrapasse os limites */
+    max-height: 100%;
+}
+
+/* Centralizando o iframe */
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Garantir que o iframe não ultrapasse os limites */
+    max-height: 100%;
+
+}
+
